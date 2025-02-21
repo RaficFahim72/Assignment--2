@@ -44,6 +44,5 @@ def main():
     print("Just for fun, your salary squared is: ${:.2f}".format(salary_squared))
     print("If you save an additional ${} each month, that would be {:.2f} times your savings allocation.".format(additional_savings, savings_ratio))
 
-    print("\nThank you for using the finance manager! Have a great month ahead!")
-
-    main()
+    print("Thank you for using the finance manager! Have a great month ahead!")
+main()
