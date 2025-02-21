@@ -31,5 +31,19 @@ def main():
     else:
         savings_ratio = 0  # Avoid division by zero
 
+    # Output results
+    print("\n--- Monthly Financial Summary for {} ---".format(month))
+    print("Your total salary for the month: ${:.2f}".format(salary))
+    print("Amount allocated to savings: ${:.2f}".format(savings))
+    print("Amount allocated to rent: ${:.2f}".format(rent))
+    print("Amount allocated to electricity: ${:.2f}".format(electricity))
+    print("Total amount spent on savings, rent, and electricity: ${:.2f}".format(total_expenses))
+    print("Remaining amount after expenses: ${:.2f}".format(remainder))
+    print("Estimated yearly rent cost: ${:.2f}".format(yearly_rent))
+    print("Estimated yearly electricity cost: ${:.2f}".format(yearly_electricity))
+    print("Just for fun, your salary squared is: ${:.2f}".format(salary_squared))
+    print("If you save an additional ${} each month, that would be {:.2f} times your savings allocation.".format(additional_savings, savings_ratio))
 
     print("\nThank you for using the finance manager! Have a great month ahead!")
+
+    main()
